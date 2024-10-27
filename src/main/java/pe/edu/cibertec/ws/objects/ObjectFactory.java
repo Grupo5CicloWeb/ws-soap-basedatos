@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.10.20 a las 09:45:46 AM PET 
+// Generado el: 2024.10.27 a las 10:20:12 AM PET 
 //
 
 
@@ -37,27 +37,51 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetPaisRequest }
+     * Create an instance of {@link GetListDomiciliosResponse }
      * 
      */
-    public GetPaisRequest createGetPaisRequest() {
-        return new GetPaisRequest();
+    public GetListDomiciliosResponse createGetListDomiciliosResponse() {
+        return new GetListDomiciliosResponse();
     }
 
     /**
-     * Create an instance of {@link GetPaisResponse }
+     * Create an instance of {@link Domiciliosoap }
      * 
      */
-    public GetPaisResponse createGetPaisResponse() {
-        return new GetPaisResponse();
+    public Domiciliosoap createDomiciliosoap() {
+        return new Domiciliosoap();
     }
 
     /**
-     * Create an instance of {@link Pais }
+     * Create an instance of {@link GetDomicilioRequest }
      * 
      */
-    public Pais createPais() {
-        return new Pais();
+    public GetDomicilioRequest createGetDomicilioRequest() {
+        return new GetDomicilioRequest();
+    }
+
+    /**
+     * Create an instance of {@link GetDomicilioResponse }
+     * 
+     */
+    public GetDomicilioResponse createGetDomicilioResponse() {
+        return new GetDomicilioResponse();
+    }
+
+    /**
+     * Create an instance of {@link PostDomicilioRequest }
+     * 
+     */
+    public PostDomicilioRequest createPostDomicilioRequest() {
+        return new PostDomicilioRequest();
+    }
+
+    /**
+     * Create an instance of {@link PostDomicilioResponse }
+     * 
+     */
+    public PostDomicilioResponse createPostDomicilioResponse() {
+        return new PostDomicilioResponse();
     }
 
 }
