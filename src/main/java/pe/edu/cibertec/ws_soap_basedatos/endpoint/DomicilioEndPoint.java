@@ -17,7 +17,9 @@ public class DomicilioEndPoint {
     @PayloadRoot(namespace = NAMESPACE_URI,
             localPart = "getListDomiciliosRequest")
     @ResponsePayload
-    public GetListDomiciliosResponse getListDomicilios() {
+    public GetListDomiciliosResponse getListDomicilios(@RequestPayload
+                                                       GetListDomiciliosRequest
+                                                                   request) {
         return domicilioService.obtenerDomicilios();
     }
 

@@ -12,6 +12,11 @@
             <xs:element name="referencia" type="xs:string" />
         </xs:sequence>
     </xs:complexType>
+    <xs:element name="getListDomiciliosRequest">
+        <xs:complexType>
+            <xs:sequence  />
+        </xs:complexType>
+    </xs:element>
     <xs:element name="getListDomiciliosResponse">
         <xs:complexType>
             <xs:sequence>

@@ -10,7 +10,6 @@ package pe.edu.cibertec.ws.objects;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
-import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
 
@@ -25,7 +24,6 @@ import jakarta.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="domicilio" type="{http://www.cibertec.edu.pe/ws/objects}domiciliosoap"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -35,37 +33,9 @@ import jakarta.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "domicilio"
-})
-@XmlRootElement(name = "postDomicilioResponse")
-public class PostDomicilioResponse {
+@XmlType(name = "")
+@XmlRootElement(name = "getListDomiciliosRequest")
+public class GetListDomiciliosRequest {
 
-    @XmlElement(required = true)
-    protected Domiciliosoap domicilio;
-
-    /**
-     * Obtiene el valor de la propiedad domicilio.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Domiciliosoap }
-     *     
-     */
-    public Domiciliosoap getDomicilio() {
-        return domicilio;
-    }
-
-    /**
-     * Define el valor de la propiedad domicilio.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Domiciliosoap }
-     *     
-     */
-    public void setDomicilio(Domiciliosoap value) {
-        this.domicilio = value;
-    }
 
 }
